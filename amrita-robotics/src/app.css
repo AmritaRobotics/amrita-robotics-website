@@ -1,0 +1,103 @@
+:root {
+    --accent: #FFAB91;
+    --accent2: #81D4FA;
+    --accent3: #c0d2d9;
+    --glass-bg: rgba(21, 217, 252, 0.182);
+    --text: rgba(33, 33, 33, 0.87);
+    --text-muted: rgba(33, 33, 33, 0.6);
+    --radius: 20px;
+    --bg-gradient: linear-gradient(135deg, #FFCCBC, #E1BEE7);
+}
+
+body {
+    margin: 0;
+    font-family: system-ui, sans-serif;
+    background: linear-gradient(135deg, #0f2027, #579f91, #4faad0);
+    /* background: #f8fafc; */
+    color: white;
+}
+
+/* glass look */
+.glass {
+    background: rgba(255, 255, 255, 0.08);
+    /* translucent surface */
+    backdrop-filter: blur(12px);
+    /* blur content behind it */
+    -webkit-backdrop-filter: blur(12px);
+    /* Safari support */
+    border-radius: 20px;
+    /* rounded corners */
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    /* subtle edge */
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+    /* optional depth */
+}
+
+/* nav */
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+.nav a {
+    text-decoration: none;
+    color: var(--accent);
+    margin-left: 1rem;
+}
+
+.nav a:hover {
+  background: var(--accent3);
+  color: white;
+}
+
+.main-content {
+    padding-top: 80px;
+    /* space for fixed navbar */
+}
+
+.hero-video::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to bottom right, rgba(255, 171, 145, 0.3), rgba(129, 212, 250, 0.3));
+}
+
+.team-card {
+    box-shadow: 0 8px 20px rgba(255, 171, 145, 0.2);
+    border-radius: var(--radius);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.team-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 28px rgba(255, 171, 145, 0.3);
+}
+
+.btn.primary {
+    background: var(--accent);
+    color: white;
+    box-shadow: 0 4px 12px rgba(255, 171, 145, 0.4);
+}
+
+.btn.secondary {
+    background: var(--glass-bg);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: var(--accent2);
+}
+
+.btn:hover {
+    transform: translateY(-2px) scale(1.05);
+}
+
+body {
+    font-family: 'Roboto Flex', system-ui, sans-serif;
+    color: var(--text);
+}
+
+h1,
+h2,
+h3 {
+    color: var(--accent3);
+}
