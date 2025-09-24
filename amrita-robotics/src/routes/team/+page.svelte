@@ -20,7 +20,7 @@
       name: "Mechanical",
       members: [
         { name: "K.L.Abhiram", role: "Mechanical Lead", quote: "Driven by perfection, fueled by curiosity, and guided by the laws of physics — I build, learn, and refine with every step.", img: "/images/Person/Abhiram.jpg", linkedin: "https://www.linkedin.com/in/kukkadapu-lakshmi-abhiram-a91615290?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" },
-        { name: "Saikiran Reddy ", role: "Assembly", quote: "Design, test, repeat.", img: "/images/Person/Saikiran.jpg", linkedin: "#https://www.linkedin.com/in/saikiran-reddy-9645ab325?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" },
+        { name: "Saikiran Reddy ", role: "Assembly", quote: "Design, test, repeat.", img: "/images/Person/Saikiran.jpg", linkedin: "https://www.linkedin.com/in/saikiran-reddy-9645ab325?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" },
         { name: "Vamsi Krishna Chalasani", role: "Assembly", quote: "Memento mori, memento vivere (remember you must die so remember to live)", img: "/images/Person/Vamsi.jpg", linkedin: "https://www.linkedin.com/in/vamsi-krishna-chalasani-75b316314?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" },
         { name: "Anandhu G", role: "Assembly", quote: "Truth always seems crazy in the world full of lies.", img: "/images/Person/Anandhu.jpg", linkedin: "https://www.linkedin.com/in/anandhu-ganesh-a47916385?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" },
       ]
@@ -29,9 +29,9 @@
       name: "Design",
       members: [
         { name: "Nandhith Karthikeyan", role: "Design Lead", quote: "never rest", img: "/images/Person/Nandhith.jpeg", linkedin: "https://www.linkedin.com/in/nandhith-karthikeyan-717993316/" },
-        { name: "MADASU AMAN SIDDHARTH", role: "Design", quote: " All our dreams can come true, if we have the courage to pursue them.", img: "/images/Person/Aman.jpg", linkedin: "www.linkedin.com/in/amanpro116" },
+        { name: "MADASU AMAN SIDDHARTH", role: "Design", quote: " All our dreams can come true, if we have the courage to pursue them.", img: "/images/Person/Aman.jpg", linkedin: "https://www.linkedin.com/in/amanpro116" },
         { name: "Monish N Pillay", role: "Design", quote: "Diamonds are made under pressure. Keep at it!", img: "/images/Person/Monish.png", linkedin: "https://www.linkedin.com/in/monishnpillay" },
-        { name: "VEGESNA SIDDHARTHA VARMA", role: "Design", quote: "\"If you don't build your dream, someone else will hire you to help them build theirs\" - Dhirubhai Ambani", img: "/images/Person/Siddhartha.jpg", linkedin: "www.linkedin.com/in/siddhartha-varma-789399289" },
+        { name: "VEGESNA SIDDHARTHA VARMA", role: "Design", quote: "\"If you don't build your dream, someone else will hire you to help them build theirs\" - Dhirubhai Ambani", img: "/images/Person/Siddhartha.jpg", linkedin: "https://www.linkedin.com/in/siddhartha-varma-789399289" },
       ]
     },
     {
@@ -47,7 +47,7 @@
     {
       name: "Controls & Software",
       members: [
-        { name: "Harshada Yuvaraj", role: "Programming Lead", quote: "Tune the loop.", img: "/images/Person/Harshada.png", linkedin: "www.linkedin.com/in/harshada-yuvaraj" },
+        { name: "Harshada Yuvaraj", role: "Programming Lead", quote: "Tune the loop.", img: "/images/Person/Harshada.png", linkedin: "https://www.linkedin.com/in/harshada-yuvaraj" },
         { name: "Ruthvik Sai Kumar. L", role: "Graph Mapping", quote: "Dreams are not what you see in sleep, they are what keep you awake, building.", img: "/images/Person/Ruthvik.png", linkedin: "https://www.linkedin.com/in/ruthvik-sai-kumar-l/" },
         { name: "Harinandan Praveen", role: "Website", quote: "Who dares wins", img: "/images/Person/Hari.jpg", linkedin: "https://www.linkedin.com/in/harinandan-praveen-ab6b82363/" },
       ]
@@ -55,9 +55,9 @@
     {
       name: "Marketing",
       members: [
-        { name: "Vijayeendra Y", role: "Outreach", quote: "Paths shift when ideas are explored", img: "/images/Person/Vijayeendra.jpg", linkedin: "www.linkedin.com/in/vijayeendra-yalpi-3a7184287" },
+        { name: "Vijayeendra Y", role: "Outreach", quote: "Paths shift when ideas are explored", img: "/images/Person/Vijayeendra.jpg", linkedin: "https://www.linkedin.com/in/vijayeendra-yalpi-3a7184287" },
         { name: "Pasupuleti Satwik", role: "Outreach", quote: "Participating is important than winning.", img: "/images/Person/Satwik.jpg", linkedin: "https://www.linkedin.com/in/p-satwik-527580348" },
-        { name: "S Muthusiva", role: "Outreach", quote: "Education never ends Watson. It is a series of lessons, with the greatest for the last.", img: "/images/Person/Muthusiva.jpg", linkedin: "www.linkedin.com/in/muthusiva-s-302307386" },
+        { name: "S Muthusiva", role: "Outreach", quote: "Education never ends Watson. It is a series of lessons, with the greatest for the last.", img: "/images/Person/Muthusiva.jpg", linkedin: "https://www.linkedin.com/in/muthusiva-s-302307386" },
         { name: "Pranav PK", role: "Outreach", quote: "The world is full of obvious things which nobody by any chance ever observes.", img: "/images/Person/Pranav.jpg", linkedin: "https://www.linkedin.com/in/pranav-pk-39353b346/" },
       ]
     }

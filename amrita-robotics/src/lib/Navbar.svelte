@@ -12,11 +12,12 @@
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   });
+  import { base } from '$app/paths';
 </script>
 
 <header class="nav glass {scrolled ? 'rounded' : ''}">
   <div class="brand">
-    <img src="/images/AR.jpg" alt="logo" class="logo" />
+    <img src="{base}/images/AR.jpg" alt="logo" class="logo" />
     <span class="brand-title">Amrita Robotics</span>
   </div>
 
