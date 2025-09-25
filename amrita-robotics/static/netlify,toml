@@ -1,3 +1,4 @@
 [build]
-	command = "npm run build"
-	publish = "build"
+  base    = "amrita-robotics"
+  publish = "amrita-robotics/build"
+  command = "npm run build"
