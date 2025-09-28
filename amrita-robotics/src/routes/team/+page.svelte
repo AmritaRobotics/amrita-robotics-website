@@ -32,6 +32,7 @@
         { name: "MADASU AMAN SIDDHARTH", role: "Design", quote: " All our dreams can come true, if we have the courage to pursue them.", img: "/images/Person/Aman.jpg", linkedin: "https://www.linkedin.com/in/amanpro116" },
         { name: "Monish N Pillay", role: "Design", quote: "Diamonds are made under pressure. Keep at it!", img: "/images/Person/Monish.png", linkedin: "https://www.linkedin.com/in/monishnpillay" },
         { name: "VEGESNA SIDDHARTHA VARMA", role: "Design", quote: "\"If you don't build your dream, someone else will hire you to help them build theirs\" - Dhirubhai Ambani", img: "/images/Person/Siddhartha.jpg", linkedin: "https://www.linkedin.com/in/siddhartha-varma-789399289" },
+        { name: "S Sarvesh", role: "Design", quote: "Necessity is the mother of invention", img: "/images/Person/Sarvesh.png", linkedin: "https://www.linkedin.com/in/sarvesh-s-7940a220b/" },
       ]
     },
     {
@@ -52,6 +53,7 @@
         { name: "Ruthvik Sai Kumar. L", role: "Graph Mapping", quote: "Dreams are not what you see in sleep, they are what keep you awake, building.", img: "/images/Person/Ruthvik.png", linkedin: "https://www.linkedin.com/in/ruthvik-sai-kumar-l/" },
         { name: "Harinandan Praveen", role: "Website", quote: "Who dares wins", img: "/images/Person/Hari.jpg", linkedin: "https://www.linkedin.com/in/harinandan-praveen-ab6b82363/" },
         { name: "Anirudh A C", role: "Website", quote: "You're not dreaming big enough if people don't call you crazy", img: "/images/Person/Anirudh.jpg", linkedin: "https://www.linkedin.com/in/AnirudhAC" },
+        { name: "Volety Simha Sathvik", role: "Computer Science", quote: "If you're afraid to fail, then you're probably going to fail.", img: "/images/Person/Sathvik.jpg", linkedin: "https://www.linkedin.com/in/sathvik-volety-a0105415a" },
       ]
     },
     {
@@ -61,6 +63,8 @@
         { name: "Pasupuleti Satwik", role: "Outreach", quote: "Participating is important than winning.", img: "/images/Person/Satwik.jpg", linkedin: "https://www.linkedin.com/in/p-satwik-527580348" },
         { name: "S Muthusiva", role: "Outreach", quote: "Education never ends Watson. It is a series of lessons, with the greatest for the last.", img: "/images/Person/Muthusiva.jpg", linkedin: "https://www.linkedin.com/in/muthusiva-s-302307386" },
         { name: "Pranav PK", role: "Outreach", quote: "The world is full of obvious things which nobody by any chance ever observes.", img: "/images/Person/Pranav.jpg", linkedin: "https://www.linkedin.com/in/pranav-pk-39353b346/" },
+        { name: "CHILUKURI ROHAN SASHANK REDDY ", role: "Outreach", quote: "\"It is by going down into the abyss that we recover the treasures of life. Where you stumble, there lies your treasure,\" from Joseph Campbell.", img: "/images/Person/Rohan.jpg", linkedin: "https://www.linkedin.com/in/chilukuri-rohan-sashank-reddy-undefined-aa169336a" },
+        { name: "Tanish Yella", role: "Outreach", quote: "Fall seven times and stand up eight", img: "/images/Person/Tanish.jpg", linkedin: "https://www.linkedin.com/in/tanish-yella-378578322?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" },
       ]
     }
   ];
