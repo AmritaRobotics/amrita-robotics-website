@@ -42,7 +42,8 @@
         { name: "Nishit Agarwal", role: "Electrical", quote: "Uhhh What's my, job?", img: "/images/Person/Nishit.jpg", linkedin: "https://www.linkedin.com/in/nishit-agarwal-408438217?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" },
         { name: "Elluru Sahith ", role: "Electrical", quote: "The better way to predict the future is to create it", img: "/images/Person/Sahith.jpg", linkedin: "https://www.linkedin.com/in/e-sahith-946578317?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" },
         { name: "Mohit Sai Polisetty", role: "Electrical", quote: "Never put off until tomorrow what you can put off until the day after tomorrow.", img: "/images/Person/Mohit.jpg", linkedin: "https://www.linkedin.com/in/mohit-sai-polisetty-089b68275?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" },
-      ]
+        { name: "SINGAM BHAVESH REDDY", role: "Electrical", quote: "The best way to create the future is to create it", img: "/images/Person/Bhavesh.jpg", linkedin: "https://www.linkedin.com/in/singam-bhavesh-reddy-868752310?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" },
+]
     },
     {
       name: "Controls & Software",
@@ -50,6 +51,7 @@
         { name: "Harshada Yuvaraj", role: "Programming Lead", quote: "Tune the loop.", img: "/images/Person/Harshada.png", linkedin: "https://www.linkedin.com/in/harshada-yuvaraj" },
         { name: "Ruthvik Sai Kumar. L", role: "Graph Mapping", quote: "Dreams are not what you see in sleep, they are what keep you awake, building.", img: "/images/Person/Ruthvik.png", linkedin: "https://www.linkedin.com/in/ruthvik-sai-kumar-l/" },
         { name: "Harinandan Praveen", role: "Website", quote: "Who dares wins", img: "/images/Person/Hari.jpg", linkedin: "https://www.linkedin.com/in/harinandan-praveen-ab6b82363/" },
+        { name: "Anirudh A C", role: "Website", quote: "You're not dreaming big enough if people don't call you crazy", img: "/images/Person/Anirudh.jpg", linkedin: "https://www.linkedin.com/in/AnirudhAC" },
       ]
     },
     {
@@ -75,7 +77,9 @@
     <div class="team-grid">
       {#each subsystem.members as member}
         <article class="team-card glass">
-          <img src={member.img} alt={member.name} />
+          <div class="card-image">
+            <img src={member.img} alt={member.name} />
+          </div>
           <h3>{member.name}</h3>
           <p class="role">{member.role}</p>
           <p class="quote">"{member.quote}"</p>
@@ -90,28 +94,64 @@
 
 <style>
 .section { padding: 64px 0; }
+
 .team-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: repeat(4, 1fr);
   gap: 20px;
   margin-bottom: 40px;
 }
+
+@media (max-width: 1024px) {
+  .team-grid { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (max-width: 640px) {
+  .team-grid { grid-template-columns: 1fr; }
+}
+
 .team-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   padding: 16px;
   text-align: center;
   border-radius: 20px;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(12px);
   box-shadow: 0 6px 16px rgba(0,0,0,0.4);
+  transition: transform 0.3s, box-shadow 0.3s;
+  min-height: 380px; /* Keep card height consistent */
 }
-.team-card img {
+
+.team-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 24px rgba(0,0,0,0.5);
+}
+
+.card-image img {
   width: 100%;
-  height: 220px;
+  height: 180px;
   object-fit: cover;
-  border-radius: 20px;
+  border-radius: 16px;
   margin-bottom: 12px;
 }
+
 .team-card h3 { margin: 8px 0 4px; }
-.team-card .role { color: rgba(255,255,255,0.7); font-size: 0.9rem; margin-bottom: 8px; }
-.team-card .quote { font-style: italic; color: rgba(255,255,255,0.6); margin-bottom: 8px; }
+
+.team-card .role {
+  color: rgba(255,255,255,0.7);
+  font-size: 0.9rem;
+  margin-bottom: 8px;
+}
+
+.team-card .quote {
+  font-style: italic;
+  color: rgba(255,255,255,0.6);
+  margin-bottom: 12px;
+  font-size: 0.85rem;
+}
+
 .team-card .linkedin {
   display: inline-block;
   padding: 6px 12px;
@@ -122,7 +162,12 @@
   font-weight: 600;
   transition: 0.3s;
 }
-.team-card .linkedin:hover { background: #4895ef; transform: translateY(-2px); }
+
+.team-card .linkedin:hover {
+  background: #4895ef;
+  transform: translateY(-2px);
+}
+
 .subsystem {
   margin-top: 48px;
   margin-bottom: 16px;

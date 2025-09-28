@@ -9,12 +9,31 @@
     --bg-gradient: linear-gradient(135deg, #FFCCBC, #E1BEE7);
 }
 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
     margin: 0;
     font-family: system-ui, sans-serif;
-    background: linear-gradient(135deg, #0f2027, #579f91, #4faad0);
+    background: linear-gradient(135deg, #8B0000, #FFEBCD);;
     /* background: #f8fafc; */
-    color: white;
+    color: gray;
+}
+
+.dark body {
+    margin: 0;
+    font-family: system-ui, sans-serif;
+    background: linear-gradient(135deg,
+                #0d1b2a,
+                /* dark navy */
+                #1b3b5a,
+                /* metallic mid blue */
+                #324b6f
+                /* soft steel-blue highlight */
+            );
+    /* background: #f8fafc; */
+    color: gray;
 }
 
 /* glass look */

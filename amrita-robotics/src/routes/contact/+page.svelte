@@ -17,7 +17,7 @@
 </script>
 
 <Navbar currentPage="contact" />
-
+<div class="main-content">
 <main class="section container glass contact-section">
   <h1 class="section-title">Contact Us</h1>
   <p class="section-lead">Get in touch with Amrita Robotics — we’d love to hear from you!</p>
@@ -33,10 +33,17 @@
     <button type="submit" class="btn primary">Send Message</button>
   </form>
 </main>
+</div>
 
 <Footer />
 
 <style>
+.main-content {
+  flex: 1; /* allows main content to grow and fill space */
+  display: flex;
+  flex-direction: column;
+  padding-top: 120px;
+}
 .contact-section {
   max-width: 600px;
   margin: auto;

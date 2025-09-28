@@ -2,20 +2,47 @@
   import Navbar from '$lib/Navbar.svelte';
   import Footer from '$lib/Footer.svelte';
   import { onMount, afterUpdate } from 'svelte';
+  import { theme } from '$lib/stores/theme';
 
   let scrolled = false;
-  let menuOpen = false;
+  let scrollY = 0;
+  let videoOpacity = 1;
+  let currentTheme: "dark" | "light" = "light";
+
+  let heroVideo: HTMLVideoElement;
+  let fadeOverlay = false;
+
+  theme.subscribe(t => {
+    if (t !== currentTheme) {
+      currentTheme = t;
+      fadeOverlay = true;
+      setTimeout(() => {
+        if (heroVideo) {
+          heroVideo.src = currentTheme === 'dark'
+            ? '/videos/Robot_Metal_Zoom_Out.mp4'
+            : '/videos/Maroon_White_Arm.mp4';
+          heroVideo.play().catch(() => {});
+        }
+        fadeOverlay = false;
+      }, 1600); // duration of fade
+    }
+  });
 
   const handleScroll = () => {
-    scrolled = window.scrollY > 20; // adjust threshold
+    scrollY = window.scrollY;
+    videoOpacity = Math.max(0, 1 - scrollY / 400);
+    scrolled = scrollY > 20;
   };
 
   onMount(() => {
+    if (heroVideo) heroVideo.src = currentTheme === 'dark'
+      ? '/videos/Robot_Metal_Zoom_Out.mp4'
+      : '/videos/Arm_Orange_White.mp4';
+
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   });
 
-  // add/remove "scrolled" class on body to trigger color changes
   afterUpdate(() => {
     if (scrolled) document.body.classList.add("scrolled");
     else document.body.classList.remove("scrolled");
@@ -24,13 +51,18 @@
 
 <Navbar currentPage="home" />
 
-<!-- HERO -->
 <section class="hero">
-  <video autoplay loop muted playsinline class="hero-video">
-    <source src="/videos/Robot_Metal_Zoom_Out.mp4" type="video/mp4" />
-  </video>
+  <video
+    bind:this={heroVideo}
+    autoplay
+    loop
+    muted
+    playsinline
+    class="hero-video"
+    style="opacity: {fadeOverlay ? 0 : 0.8 + videoOpacity/2.5}; transition: opacity 1.6s ease-in-out;"
+  ></video>
 
-  <div class="hero-overlay glass">
+  <div class="hero-overlay glass" class:dark-glass={currentTheme === 'dark'}>
     <h1 class="hero-title">Amrita Robotics</h1>
     <p class="hero-sub">Innovating for <strong>ABU Robocon 2026</strong></p>
 
@@ -70,6 +102,10 @@
     --radius: 20px;
   }
 
+  .dark-glass {
+    background: rgba(33, 33, 33, 0.2);
+  }
+
   body {
     background: var(--bg-dark);
     font-family: "Roboto", system-ui, sans-serif;
@@ -86,7 +122,7 @@
   /* HERO */
   .hero {
     position: relative;
-    height: 90vh;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -100,6 +136,8 @@
     height: 100%;
     object-fit: cover;
     filter: brightness(0.45) contrast(1.1);
+    z-index: -1;
+    transition: opacity 0.2s linear; /* smooth fade */
   }
 
   .hero-overlay {
@@ -108,6 +146,7 @@
     text-align: center;
     border-radius: var(--radius);
     transition: background 0.5s ease, color 0.5s ease;
+    z-index: 1;
   }
 
   body.scrolled .hero-overlay {
