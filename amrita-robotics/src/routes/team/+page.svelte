@@ -54,6 +54,7 @@
         { name: "Harinandan Praveen", role: "Website", quote: "Who dares wins", img: "/images/Person/Hari.jpg", linkedin: "https://www.linkedin.com/in/harinandan-praveen-ab6b82363/" },
         { name: "Anirudh A C", role: "Website", quote: "You're not dreaming big enough if people don't call you crazy", img: "/images/Person/Anirudh.jpg", linkedin: "https://www.linkedin.com/in/AnirudhAC" },
         { name: "Volety Simha Sathvik", role: "Computer Science", quote: "If you're afraid to fail, then you're probably going to fail.", img: "/images/Person/Sathvik.jpg", linkedin: "https://www.linkedin.com/in/sathvik-volety-a0105415a" },
+        { name: "Nihal Paleti", role: "Data Engineer", quote: "Learning is an active process, we learn by doing. only knowledge that is used sticks in your mind ", img: "/images/Person/Nihal.jpg", linkedin: "https://www.linkedin.com/in/nihal-paleti-06545b1b1/" },
       ]
     },
     {
@@ -65,6 +66,8 @@
         { name: "Pranav PK", role: "Outreach", quote: "The world is full of obvious things which nobody by any chance ever observes.", img: "/images/Person/Pranav.jpg", linkedin: "https://www.linkedin.com/in/pranav-pk-39353b346/" },
         { name: "CHILUKURI ROHAN SASHANK REDDY ", role: "Outreach", quote: "\"It is by going down into the abyss that we recover the treasures of life. Where you stumble, there lies your treasure,\" from Joseph Campbell.", img: "/images/Person/Rohan.jpg", linkedin: "https://www.linkedin.com/in/chilukuri-rohan-sashank-reddy-undefined-aa169336a" },
         { name: "Tanish Yella", role: "Outreach", quote: "Fall seven times and stand up eight", img: "/images/Person/Tanish.jpg", linkedin: "https://www.linkedin.com/in/tanish-yella-378578322?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" },
+        { name: "Shubhi Srivastava", role: "Outreach", quote: "\"Life is 10% what happens to us and 90% how we react to it.\" ~Charles R. Swindell", img: "/images/Person/Shubhi.png", linkedin: "https://www.linkedin.com/in/shubhi-srivastava-147337322" },
+        { name: "Aravind Sri Ram S", role: "Outreach", quote: "Never accept a price that diminishes the value of your platform. Your fee is not a cost to the brand; it is the calculated rental price for your trust, credibility, and access to your community.", img: "/images/Person/Aravind.jpg", linkedin: "https://www.linkedin.com/in/aravind-sri-ram-86648a382" }
       ]
     }
   ];
