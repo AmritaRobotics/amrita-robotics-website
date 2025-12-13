@@ -23,16 +23,20 @@
         { name: "Saikiran Reddy ", role: "Assembly", quote: "Design, test, repeat.", img: "/images/Person/Saikiran.jpg", linkedin: "https://www.linkedin.com/in/saikiran-reddy-9645ab325?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" },
         { name: "Vamsi Krishna Chalasani", role: "Assembly", quote: "Memento mori, memento vivere (remember you must die so remember to live)", img: "/images/Person/Vamsi.jpg", linkedin: "https://www.linkedin.com/in/vamsi-krishna-chalasani-75b316314?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" },
         { name: "Anandhu G", role: "Assembly", quote: "Truth always seems crazy in the world full of lies.", img: "/images/Person/Anandhu.jpg", linkedin: "https://www.linkedin.com/in/anandhu-ganesh-a47916385?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" },
+        { name: "Adityaa Raghuram", role: "Assembly", quote: "Always be yourself no matter what,even if it sounds silly or dumb,it sucks not to be liked but it sucks even more not being yourself", img: "/images/Person/Adityaa.jpg", linkedin: "https://www.linkedin.com/in/adityaa-raghuram-207299372" },
+        { name: "Pranav Vipin Pillai", role: "Assembly", quote: "Fortune Favours The Brave", img: "/images/Person/Pranav_V.jpg", linkedin: "https://www.linkedin.com/in/pranav-vipin-pillai-872723333/" },
+        { name: "Anish Koduganti", role: "Assembly", quote: "Hesitation is defeat", img: "/images/Person/Anish.jpeg", linkedin: "https://www.linkedin.com/in/anish-koduganti-13991a29a/" },
       ]
     },
     {
       name: "Design",
       members: [
+        { name: "Monish N Pillay", role: "Project Lead", quote: "Diamonds are made under pressure. Keep at it!", img: "/images/Person/Monish.png", linkedin: "https://www.linkedin.com/in/monishnpillay" },
         { name: "Nandhith Karthikeyan", role: "Design Lead", quote: "never rest", img: "/images/Person/Nandhith.jpeg", linkedin: "https://www.linkedin.com/in/nandhith-karthikeyan-717993316/" },
+        { name: "S Sarvesh", role: "Hardware Manager", quote: "Necessity is the mother of invention", img: "/images/Person/Sarvesh.png", linkedin: "https://www.linkedin.com/in/sarvesh-s-7940a220b/" },
         { name: "MADASU AMAN SIDDHARTH", role: "Design", quote: " All our dreams can come true, if we have the courage to pursue them.", img: "/images/Person/Aman.jpg", linkedin: "https://www.linkedin.com/in/amanpro116" },
-        { name: "Monish N Pillay", role: "Design", quote: "Diamonds are made under pressure. Keep at it!", img: "/images/Person/Monish.png", linkedin: "https://www.linkedin.com/in/monishnpillay" },
         { name: "VEGESNA SIDDHARTHA VARMA", role: "Design", quote: "\"If you don't build your dream, someone else will hire you to help them build theirs\" - Dhirubhai Ambani", img: "/images/Person/Siddhartha.jpg", linkedin: "https://www.linkedin.com/in/siddhartha-varma-789399289" },
-        { name: "S Sarvesh", role: "Design", quote: "Necessity is the mother of invention", img: "/images/Person/Sarvesh.png", linkedin: "https://www.linkedin.com/in/sarvesh-s-7940a220b/" },
+        { name: "Roopavani S.D", role: "Design", quote: "\"You never fail until you stop trying.\"", img: "/images/Person/Roopavani.jpg", linkedin: "https://www.linkedin.com/in/roopa-1253a19m08" }
       ]
     },
     {
@@ -49,10 +53,10 @@
     {
       name: "Controls & Software",
       members: [
-        { name: "Harshada Yuvaraj", role: "Programming Lead", quote: "Tune the loop.", img: "/images/Person/Harshada.png", linkedin: "https://www.linkedin.com/in/harshada-yuvaraj" },
-        { name: "Ruthvik Sai Kumar. L", role: "Graph Mapping", quote: "Dreams are not what you see in sleep, they are what keep you awake, building.", img: "/images/Person/Ruthvik.png", linkedin: "https://www.linkedin.com/in/ruthvik-sai-kumar-l/" },
+        { name: "Ruthvik Sai Kumar. L", role: "CS Lead", quote: "Dreams are not what you see in sleep, they are what keep you awake, building.", img: "/images/Person/Ruthvik.png", linkedin: "https://www.linkedin.com/in/ruthvik-sai-kumar-l/" },
+        { name: "Anirudh A C", role: "Software Manager", quote: "You're not dreaming big enough if people don't call you crazy", img: "/images/Person/Anirudh.jpg", linkedin: "https://www.linkedin.com/in/AnirudhAC" },
+        { name: "Harshada Yuvaraj", role: "CV Specialist", quote: "Tune the loop.", img: "/images/Person/Harshada.png", linkedin: "https://www.linkedin.com/in/harshada-yuvaraj" },
         { name: "Harinandan Praveen", role: "Website", quote: "Who dares wins", img: "/images/Person/Hari.jpg", linkedin: "https://www.linkedin.com/in/harinandan-praveen-ab6b82363/" },
-        { name: "Anirudh A C", role: "Website", quote: "You're not dreaming big enough if people don't call you crazy", img: "/images/Person/Anirudh.jpg", linkedin: "https://www.linkedin.com/in/AnirudhAC" },
         { name: "Volety Simha Sathvik", role: "Computer Science", quote: "If you're afraid to fail, then you're probably going to fail.", img: "/images/Person/Sathvik.jpg", linkedin: "https://www.linkedin.com/in/sathvik-volety-a0105415a" },
         { name: "Nihal Paleti", role: "Data Engineer", quote: "Learning is an active process, we learn by doing. only knowledge that is used sticks in your mind ", img: "/images/Person/Nihal.jpg", linkedin: "https://www.linkedin.com/in/nihal-paleti-06545b1b1/" },
       ]
@@ -66,7 +70,6 @@
         { name: "Pranav PK", role: "Outreach", quote: "The world is full of obvious things which nobody by any chance ever observes.", img: "/images/Person/Pranav.jpg", linkedin: "https://www.linkedin.com/in/pranav-pk-39353b346/" },
         { name: "CHILUKURI ROHAN SASHANK REDDY ", role: "Outreach", quote: "\"It is by going down into the abyss that we recover the treasures of life. Where you stumble, there lies your treasure,\" from Joseph Campbell.", img: "/images/Person/Rohan.jpg", linkedin: "https://www.linkedin.com/in/chilukuri-rohan-sashank-reddy-undefined-aa169336a" },
         { name: "Tanish Yella", role: "Outreach", quote: "Fall seven times and stand up eight", img: "/images/Person/Tanish.jpg", linkedin: "https://www.linkedin.com/in/tanish-yella-378578322?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" },
-        { name: "Shubhi Srivastava", role: "Outreach", quote: "\"Life is 10% what happens to us and 90% how we react to it.\" ~Charles R. Swindell", img: "/images/Person/Shubhi.png", linkedin: "https://www.linkedin.com/in/shubhi-srivastava-147337322" },
         { name: "Aravind Sri Ram S", role: "Outreach", quote: "Never accept a price that diminishes the value of your platform. Your fee is not a cost to the brand; it is the calculated rental price for your trust, credibility, and access to your community.", img: "/images/Person/Aravind.jpg", linkedin: "https://www.linkedin.com/in/aravind-sri-ram-86648a382" }
       ]
     }
@@ -134,6 +137,12 @@
 .team-card:hover {
   transform: translateY(-4px);
   box-shadow: 0 12px 24px rgba(0,0,0,0.5);
+}
+
+main.container {
+  margin: 60px auto;
+  padding-left: 16px;
+  padding-right: 16px;
 }
 
 .card-image img {

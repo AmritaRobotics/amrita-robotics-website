@@ -73,6 +73,16 @@
   </div>
 </section>
 
+<!-- SPONSORS -->
+<section class="section container sponsors">
+  <h2 class="section-title">Our Sponsors</h2>
+
+  <div class="sponsor-logos">
+    <img src="/images/Sponsors/Ansys.png" alt="Ansys logo" />
+    <img src="/images/Sponsors/Altium_Logo_BLK.png" alt="Altium logo" />
+  </div>
+</section>
+
 <!-- CONTENT -->
 <section class="section container">
   <h2 class="section-title">Our Work</h2>
@@ -247,5 +257,31 @@
 
   body.scrolled .footer {
     color: var(--text-muted-light);
+  }
+  /* SPONSORS */
+  .sponsors {
+    text-align: center;
+  }
+
+  .sponsor-logos {
+    margin-top: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+    flex-wrap: wrap;
+  }
+
+  .sponsor-logos img {
+    max-height: 120px;
+    max-width: 300px;
+    object-fit: contain;
+    filter: brightness(0.95);
+    transition: transform 0.3s ease, filter 0.3s ease;
+  }
+
+  .sponsor-logos img:hover {
+    transform: scale(1.05);
+    filter: brightness(1.1);
   }
 </style>
