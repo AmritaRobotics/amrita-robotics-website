@@ -26,16 +26,18 @@
         { name: "Adityaa Raghuram", role: "Assembly", quote: "Always be yourself no matter what,even if it sounds silly or dumb,it sucks not to be liked but it sucks even more not being yourself", img: "/images/Person/Adityaa.jpg", linkedin: "https://www.linkedin.com/in/adityaa-raghuram-207299372" },
         { name: "Pranav Vipin Pillai", role: "Assembly", quote: "Fortune Favours The Brave", img: "/images/Person/Pranav_V.jpg", linkedin: "https://www.linkedin.com/in/pranav-vipin-pillai-872723333/" },
         { name: "Anish Koduganti", role: "Assembly", quote: "Hesitation is defeat", img: "/images/Person/Anish.jpeg", linkedin: "https://www.linkedin.com/in/anish-koduganti-13991a29a/" },
+        { name: "V. Sonika", role: "Assembly", quote: "If you can dream it, you can do it.", img: "/images/Person/Sonika.jpg", linkedin: "https://www.linkedin.com/in/sonika-v-491426372?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" },
+        { name: "Kotla Vennela ", role: "Assembly", quote: "Clarity comes from persistence, not shortcuts", img: "/images/Person/Vennela.jpg", linkedin: "https://www.linkedin.com/in/kotla-vennela-42bb3b286?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" }
       ]
     },
     {
       name: "Design",
       members: [
         { name: "Monish N Pillay", role: "Project Lead", quote: "Diamonds are made under pressure. Keep at it!", img: "/images/Person/Monish.png", linkedin: "https://www.linkedin.com/in/monishnpillay" },
+        { name: "VEGESNA SIDDHARTHA VARMA", role: "Project Manager", quote: "\"If you don't build your dream, someone else will hire you to help them build theirs\" - Dhirubhai Ambani", img: "/images/Person/Siddhartha.jpg", linkedin: "https://www.linkedin.com/in/siddhartha-varma-789399289" },
         { name: "Nandhith Karthikeyan", role: "Design Lead", quote: "never rest", img: "/images/Person/Nandhith.jpeg", linkedin: "https://www.linkedin.com/in/nandhith-karthikeyan-717993316/" },
         { name: "S Sarvesh", role: "Hardware Manager", quote: "Necessity is the mother of invention", img: "/images/Person/Sarvesh.png", linkedin: "https://www.linkedin.com/in/sarvesh-s-7940a220b/" },
         { name: "MADASU AMAN SIDDHARTH", role: "Design", quote: " All our dreams can come true, if we have the courage to pursue them.", img: "/images/Person/Aman.jpg", linkedin: "https://www.linkedin.com/in/amanpro116" },
-        { name: "VEGESNA SIDDHARTHA VARMA", role: "Design", quote: "\"If you don't build your dream, someone else will hire you to help them build theirs\" - Dhirubhai Ambani", img: "/images/Person/Siddhartha.jpg", linkedin: "https://www.linkedin.com/in/siddhartha-varma-789399289" },
         { name: "Roopavani S.D", role: "Design", quote: "\"You never fail until you stop trying.\"", img: "/images/Person/Roopavani.jpg", linkedin: "https://www.linkedin.com/in/roopa-1253a19m08" }
       ]
     },
@@ -64,13 +66,15 @@
     {
       name: "Marketing",
       members: [
-        { name: "Vijayeendra Y", role: "Outreach", quote: "Paths shift when ideas are explored", img: "/images/Person/Vijayeendra.jpg", linkedin: "https://www.linkedin.com/in/vijayeendra-yalpi-3a7184287" },
+        { name: "Pranav PK", role: "Sponsorship Lead", quote: "The world is full of obvious things which nobody by any chance ever observes.", img: "/images/Person/Pranav.jpg", linkedin: "https://www.linkedin.com/in/pranav-pk-39353b346/" },
+        { name: "Vijayeendra Y", role: "Financial Lead", quote: "Paths shift when ideas are explored", img: "/images/Person/Vijayeendra.jpg", linkedin: "https://www.linkedin.com/in/vijayeendra-yalpi-3a7184287" },
         { name: "Pasupuleti Satwik", role: "Outreach", quote: "Participating is important than winning.", img: "/images/Person/Satwik.jpg", linkedin: "https://www.linkedin.com/in/p-satwik-527580348" },
         { name: "S Muthusiva", role: "Outreach", quote: "Education never ends Watson. It is a series of lessons, with the greatest for the last.", img: "/images/Person/Muthusiva.jpg", linkedin: "https://www.linkedin.com/in/muthusiva-s-302307386" },
-        { name: "Pranav PK", role: "Outreach", quote: "The world is full of obvious things which nobody by any chance ever observes.", img: "/images/Person/Pranav.jpg", linkedin: "https://www.linkedin.com/in/pranav-pk-39353b346/" },
         { name: "CHILUKURI ROHAN SASHANK REDDY ", role: "Outreach", quote: "\"It is by going down into the abyss that we recover the treasures of life. Where you stumble, there lies your treasure,\" from Joseph Campbell.", img: "/images/Person/Rohan.jpg", linkedin: "https://www.linkedin.com/in/chilukuri-rohan-sashank-reddy-undefined-aa169336a" },
         { name: "Tanish Yella", role: "Outreach", quote: "Fall seven times and stand up eight", img: "/images/Person/Tanish.jpg", linkedin: "https://www.linkedin.com/in/tanish-yella-378578322?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" },
-        { name: "Aravind Sri Ram S", role: "Outreach", quote: "Never accept a price that diminishes the value of your platform. Your fee is not a cost to the brand; it is the calculated rental price for your trust, credibility, and access to your community.", img: "/images/Person/Aravind.jpg", linkedin: "https://www.linkedin.com/in/aravind-sri-ram-86648a382" }
+        { name: "Aravind Sri Ram S", role: "Outreach", quote: "Never accept a price that diminishes the value of your platform. Your fee is not a cost to the brand; it is the calculated rental price for your trust, credibility, and access to your community.", img: "/images/Person/Aravind.jpg", linkedin: "https://www.linkedin.com/in/aravind-sri-ram-86648a382" },
+        { name: "Sudarshan Suresh", role: "Outreach", quote: "The world is ruled by fear. Fear of others, fear of the future", img: "/images/Person/Sudharshan.jpg", linkedin: "https://www.linkedin.com/in/sudarshan-suresh-6a9074329?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" },
+        { name: "Kaustubh Narayan Kalpathy", role: "Outreach", quote: "God gave me one life... I’m here to make it count", img: "/images/Person/Kaustubh.jpeg", linkedin: "http://www.linkedin.com/in/kaustubh-kalpathy-72175a360" }
       ]
     }
   ];
